@@ -1,0 +1,105 @@
+/*Universal*/
+
+/*span {
+    color: #009485;
+}*/
+/**/
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/*Body*/
+
+body {
+    font-family: "DM sans", sans-serif;
+    background-color: #f7f7f9;
+}
+
+#body {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+div.login-logout-tab div.card-header {
+    padding: 0px 0px 12px 0px;
+}
+
+div.login-logout-tab ul.nav-tabs {
+    margin: 0px 0px -12px 0px;
+}
+
+div.login-logout-tab li.nav-item {
+    width: 50%;
+}
+
+div.login-logout-tab a.nav-link {
+    color: white;
+    text-align: center;
+    background-color: #009485;
+}
+
+    div.login-logout-tab a.nav-link:hover {
+        background-color: #5bc1Ac;
+    }
+
+/*Register*/
+
+/*#form-group {
+    background-color: #ced4da;
+    font-size: 50px;
+}*/
+
+#registerSubmit {
+    background-color: #009485;
+}
+
+#Register {
+    /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);*/
+    border-radius: 10px;
+}
+
+/*Login*/
+
+#Login {
+    /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);*/
+    border-radius: 10px;
+}
+
+#login-submit {
+    background-color: #009485;
+}
+
+a.createBtn:hover {
+    color: dimgrey;
+}
+
+/*header*/
+
+
+
+#manage, #logout {
+    color: #d9e3f1;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#add {
+    color: #009485;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+/*footer*/
+
+
